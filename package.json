@@ -2,7 +2,7 @@
   "name": "send-mms",
   "version": "1.0.0",
   "description": "send mms using buzz expert api",
-  "main": "index.js",
+  "main": "send-mms.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/tobudim/send-mms/issues"
   },
-  "homepage": "https://github.com/tobudim/send-mms#readme"
+  "homepage": "https://github.com/tobudim/send-mms#readme",
+  "dependencies": {
+    "request": "^2.88.0",
+    "xml": "^1.0.1"
+  }
 }
