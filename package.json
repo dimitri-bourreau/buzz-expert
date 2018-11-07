@@ -1,14 +1,14 @@
 {
-  "name": "send-mms",
-  "version": "1.0.0",
-  "description": "send mms using buzz expert api",
-  "main": "send-mms.js",
+  "name": "buzz-expert",
+  "version": "0.0.1",
+  "description": "buzz expert api client",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tobudim/send-mms.git"
+    "url": "git+https://github.com/tobudim/buzz-expert.git"
   },
   "keywords": [
     "send",
@@ -20,11 +20,14 @@
   "author": "tobudim",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tobudim/send-mms/issues"
+    "url": "https://github.com/tobudim/buzz-expert/issues"
   },
-  "homepage": "https://github.com/tobudim/send-mms#readme",
+  "homepage": "https://github.com/tobudim/buzz-expert#readme",
   "dependencies": {
+    "file-type": "^10.4.0",
+    "read-chunk": "^3.0.0",
     "request": "^2.88.0",
-    "xml": "^1.0.1"
+    "xml": "^1.0.1",
+    "xml-js": "^1.6.8"
   }
 }
