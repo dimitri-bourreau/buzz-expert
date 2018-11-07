@@ -11,6 +11,7 @@ Max 2 medias.
 Media must not be > than 60Ko (500 000 bytes). 
 
 # How to use it ?
+```javascript
 const BEAPI = require('');
 const BuzzExpert = new BEAPI({
 	login: "login",
@@ -30,3 +31,6 @@ BuzzExpert.connect((err) => {
 		console.log("Message sent!");
 	});
 });
+```
+
+# GitHub Repository
