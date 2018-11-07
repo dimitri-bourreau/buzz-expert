@@ -12,7 +12,7 @@ Media must not be > than 60Ko (500 000 bytes).
 
 # How to use it ?
 ```javascript
-const BEAPI = require('');
+const BEAPI = require('buzz-expert');
 const BuzzExpert = new BEAPI({
 	login: "login",
 	password: "password",
