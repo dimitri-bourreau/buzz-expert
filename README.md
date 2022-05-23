@@ -1,6 +1,8 @@
 # What for ?
 Send SMS and MMS using Buzz Expert API.
 
+> Important: this package is not maintained. It was my very first NPM package. 🎉
+
 # More
 Minimalist module.
 Messages are sent on MARKETING type.
